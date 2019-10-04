@@ -57,6 +57,7 @@
 
 // 平移动画
 - (IBAction)movePosition:(id)sender {
+    
     CABasicAnimation *basicAnimation = [CABasicAnimation animationWithKeyPath:@"position.x"];
     //basicAnimation.fromValue = @30;
     basicAnimation.toValue = @200;
@@ -69,6 +70,7 @@
      */
     basicAnimation.removedOnCompletion = NO;
     [self.view1.layer addAnimation:basicAnimation forKey:nil];
+    
 }
 
 

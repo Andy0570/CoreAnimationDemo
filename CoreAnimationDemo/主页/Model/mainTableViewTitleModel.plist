@@ -575,5 +575,30 @@
 			</dict>
 		</array>
 	</dict>
+	<dict>
+		<key>headerTitle</key>
+		<string>16.折叠动画</string>
+		<key>cells</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>仿射变换</string>
+				<key>detail</key>
+				<string>-</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>折叠动画列表</string>
+				<key>detail</key>
+				<string>-</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>圆角</string>
+				<key>detail</key>
+				<string>-</string>
+			</dict>
+		</array>
+	</dict>
 </array>
 </plist>

@@ -145,6 +145,13 @@
 		22290D92233DEC9F008D0A1B /* HQL15_4ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22290D90233DEC9F008D0A1B /* HQL15_4ViewController.xib */; };
 		22290D96233DECAB008D0A1B /* HQL15_5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22290D94233DECAB008D0A1B /* HQL15_5ViewController.m */; };
 		22290D97233DECAB008D0A1B /* HQL15_5ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22290D95233DECAB008D0A1B /* HQL15_5ViewController.xib */; };
+		22290DA6233F303E008D0A1B /* HQL16_1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22290DA4233F303E008D0A1B /* HQL16_1ViewController.m */; };
+		22290DA7233F303E008D0A1B /* HQL16_1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22290DA5233F303E008D0A1B /* HQL16_1ViewController.xib */; };
+		22290DB423409039008D0A1B /* HQL16_2TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22290DB323409039008D0A1B /* HQL16_2TableViewController.m */; };
+		22290DBB234090E0008D0A1B /* FoldingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22290DB9234090E0008D0A1B /* FoldingCell.m */; };
+		22290DBC234090E0008D0A1B /* FoldingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22290DBA234090E0008D0A1B /* FoldingCell.xib */; };
+		22290DC0234121D5008D0A1B /* HQL16_3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22290DBE234121D5008D0A1B /* HQL16_3ViewController.m */; };
+		22290DC1234121D5008D0A1B /* HQL16_3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22290DBF234121D5008D0A1B /* HQL16_3ViewController.xib */; };
 		2251138E2338B87500596DCA /* HQL8_1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2251138C2338B87500596DCA /* HQL8_1ViewController.m */; };
 		2251138F2338B87500596DCA /* HQL8_1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2251138D2338B87500596DCA /* HQL8_1ViewController.xib */; };
 		225113932338BCA400596DCA /* HQL8_2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 225113912338BCA400596DCA /* HQL8_2ViewController.m */; };
@@ -433,6 +440,17 @@
 		22290D93233DECAB008D0A1B /* HQL15_5ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQL15_5ViewController.h; sourceTree = "<group>"; };
 		22290D94233DECAB008D0A1B /* HQL15_5ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQL15_5ViewController.m; sourceTree = "<group>"; };
 		22290D95233DECAB008D0A1B /* HQL15_5ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HQL15_5ViewController.xib; sourceTree = "<group>"; };
+		22290DA3233F303E008D0A1B /* HQL16_1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQL16_1ViewController.h; sourceTree = "<group>"; };
+		22290DA4233F303E008D0A1B /* HQL16_1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQL16_1ViewController.m; sourceTree = "<group>"; };
+		22290DA5233F303E008D0A1B /* HQL16_1ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HQL16_1ViewController.xib; sourceTree = "<group>"; };
+		22290DB223409039008D0A1B /* HQL16_2TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQL16_2TableViewController.h; sourceTree = "<group>"; };
+		22290DB323409039008D0A1B /* HQL16_2TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQL16_2TableViewController.m; sourceTree = "<group>"; };
+		22290DB8234090E0008D0A1B /* FoldingCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoldingCell.h; sourceTree = "<group>"; };
+		22290DB9234090E0008D0A1B /* FoldingCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoldingCell.m; sourceTree = "<group>"; };
+		22290DBA234090E0008D0A1B /* FoldingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoldingCell.xib; sourceTree = "<group>"; };
+		22290DBD234121D5008D0A1B /* HQL16_3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQL16_3ViewController.h; sourceTree = "<group>"; };
+		22290DBE234121D5008D0A1B /* HQL16_3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQL16_3ViewController.m; sourceTree = "<group>"; };
+		22290DBF234121D5008D0A1B /* HQL16_3ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HQL16_3ViewController.xib; sourceTree = "<group>"; };
 		2251138B2338B87500596DCA /* HQL8_1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQL8_1ViewController.h; sourceTree = "<group>"; };
 		2251138C2338B87500596DCA /* HQL8_1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQL8_1ViewController.m; sourceTree = "<group>"; };
 		2251138D2338B87500596DCA /* HQL8_1ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HQL8_1ViewController.xib; sourceTree = "<group>"; };
@@ -621,7 +639,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		22191A742333326900BA68B6 /* 5.变换 */ = {
+		22191A742333326900BA68B6 /* 5.仿射变换 */ = {
 			isa = PBXGroup;
 			children = (
 				22191A752333327C00BA68B6 /* HQL5_1ViewController.h */,
@@ -646,7 +664,7 @@
 				2226646A23334DEC00693A93 /* HQL5_7ViewController.m */,
 				2226646B23334DEC00693A93 /* HQL5_7ViewController.xib */,
 			);
-			path = "5.变换";
+			path = "5.仿射变换";
 			sourceTree = "<group>";
 		};
 		2226646E23336BB000693A93 /* 6.专用图层 */ = {
@@ -850,6 +868,48 @@
 			path = "15.图层性能";
 			sourceTree = "<group>";
 		};
+		22290DA2233F3027008D0A1B /* 16.折叠动画 */ = {
+			isa = PBXGroup;
+			children = (
+				22290DA3233F303E008D0A1B /* HQL16_1ViewController.h */,
+				22290DA4233F303E008D0A1B /* HQL16_1ViewController.m */,
+				22290DA5233F303E008D0A1B /* HQL16_1ViewController.xib */,
+				22290DBD234121D5008D0A1B /* HQL16_3ViewController.h */,
+				22290DBE234121D5008D0A1B /* HQL16_3ViewController.m */,
+				22290DBF234121D5008D0A1B /* HQL16_3ViewController.xib */,
+				22290DB52340903E008D0A1B /* 16_2 */,
+			);
+			path = "16.折叠动画";
+			sourceTree = "<group>";
+		};
+		22290DB52340903E008D0A1B /* 16_2 */ = {
+			isa = PBXGroup;
+			children = (
+				22290DB62340908A008D0A1B /* Controller */,
+				22290DB723409094008D0A1B /* View */,
+			);
+			path = 16_2;
+			sourceTree = "<group>";
+		};
+		22290DB62340908A008D0A1B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				22290DB223409039008D0A1B /* HQL16_2TableViewController.h */,
+				22290DB323409039008D0A1B /* HQL16_2TableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		22290DB723409094008D0A1B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				22290DB8234090E0008D0A1B /* FoldingCell.h */,
+				22290DB9234090E0008D0A1B /* FoldingCell.m */,
+				22290DBA234090E0008D0A1B /* FoldingCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		2251138A2338B81300596DCA /* 8.显式动画 */ = {
 			isa = PBXGroup;
 			children = (
@@ -899,6 +959,7 @@
 		228050D12331CD0D00EE93FD /* CoreAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				22290DA2233F3027008D0A1B /* 16.折叠动画 */,
 				22290D69233DDCD3008D0A1B /* Coast Photos */,
 				22290D68233DDCD3008D0A1B /* Gradient Images */,
 				22B93B88233D323F0053B987 /* Vacation Photos */,
@@ -912,7 +973,7 @@
 				2251138A2338B81300596DCA /* 8.显式动画 */,
 				222665372334AE8A00693A93 /* 7.隐式动画 */,
 				2226646E23336BB000693A93 /* 6.专用图层 */,
-				22191A742333326900BA68B6 /* 5.变换 */,
+				22191A742333326900BA68B6 /* 5.仿射变换 */,
 				228052132332322600EE93FD /* 4.视觉效果 */,
 				228051FE233217C500EE93FD /* 3.图层几何学 */,
 				228051E42331D67300EE93FD /* 2.寄宿图 */,
@@ -1376,6 +1437,7 @@
 				222664FB233405EF00693A93 /* Snowman_04_01.jpg in Resources */,
 				22B93B89233D323F0053B987 /* Vacation Photos in Resources */,
 				2226651E233405EF00693A93 /* Snowman_02_00.jpg in Resources */,
+				22290DBC234090E0008D0A1B /* FoldingCell.xib in Resources */,
 				22BF1992233C93ED008B502D /* HQL11_2ViewController.xib in Resources */,
 				22290D97233DECAB008D0A1B /* HQL15_5ViewController.xib in Resources */,
 				2280521D233235B700EE93FD /* HQL4_2ViewController.xib in Resources */,
@@ -1463,6 +1525,7 @@
 				222664F0233405EF00693A93 /* Snowman_06_00.jpg in Resources */,
 				222664EC233405EF00693A93 /* Snowman_02_07.jpg in Resources */,
 				22290D67233DD769008D0A1B /* HQL14_6ViewController.xib in Resources */,
+				22290DA7233F303E008D0A1B /* HQL16_1ViewController.xib in Resources */,
 				22B93B2F233D2B690053B987 /* HQL14_4ViewController.xib in Resources */,
 				2226648223336C4400693A93 /* HQL6_4ViewController.xib in Resources */,
 				222664EE233405EF00693A93 /* Snowman_04_06.jpg in Resources */,
@@ -1489,6 +1552,7 @@
 				2226647823336C2C00693A93 /* HQL6_2ViewController.xib in Resources */,
 				22266512233405EF00693A93 /* Snowman_02_05.jpg in Resources */,
 				228051E92331D6C100EE93FD /* HQL2_1ViewController.xib in Resources */,
+				22290DC1234121D5008D0A1B /* HQL16_3ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1525,6 +1589,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				222664A323338D7400693A93 /* ReflectionView.m in Sources */,
+				22290DBB234090E0008D0A1B /* FoldingCell.m in Sources */,
 				2226646C23334DEC00693A93 /* HQL5_7ViewController.m in Sources */,
 				22290D8C233DEC91008D0A1B /* HQL15_3ViewController.m in Sources */,
 				22191A682332A65000BA68B6 /* HQL4_5ViewController.m in Sources */,
@@ -1541,6 +1606,7 @@
 				22191A8723333F8500BA68B6 /* HQL5_4ViewController.m in Sources */,
 				22290D87233DEC85008D0A1B /* HQL15_2ViewController.m in Sources */,
 				22290D82233DEC55008D0A1B /* HQL15_1ViewController.m in Sources */,
+				22290DB423409039008D0A1B /* HQL16_2TableViewController.m in Sources */,
 				22191A722332B07D00BA68B6 /* HQL4_7ViewController.m in Sources */,
 				228051DA2331CEA200EE93FD /* HQLArrayDataSource.m in Sources */,
 				22B93B04233CC1BB0053B987 /* DrawingView1.m in Sources */,
@@ -1568,6 +1634,7 @@
 				2283AB10233CBDA6009A9291 /* HQL13_1ViewController.m in Sources */,
 				228050E22331CD0E00EE93FD /* main.m in Sources */,
 				228051DB2331CEA200EE93FD /* HQLGroupedArrayDataSource.m in Sources */,
+				22290DA6233F303E008D0A1B /* HQL16_1ViewController.m in Sources */,
 				22BF1956233A1E21008B502D /* HQL9_3ViewController.m in Sources */,
 				22191A7D23333F6D00BA68B6 /* HQL5_2ViewController.m in Sources */,
 				2226649E233387A400693A93 /* HQL6_9ViewController.m in Sources */,
@@ -1580,6 +1647,7 @@
 				22191A8C23333F9200BA68B6 /* HQL5_5ViewController.m in Sources */,
 				2226646723334DE200693A93 /* HQL5_6ViewController.m in Sources */,
 				228050D42331CD0D00EE93FD /* AppDelegate.m in Sources */,
+				22290DC0234121D5008D0A1B /* HQL16_3ViewController.m in Sources */,
 				228051F22332022B00EE93FD /* HQL2_3ViewController.m in Sources */,
 				2226648A2333876200693A93 /* HQL6_5ViewController.m in Sources */,
 				22B93B33233D2B730053B987 /* HQL14_5ViewController.m in Sources */,

@@ -105,6 +105,10 @@
 #import "HQL15_4ViewController.h"
 #import "HQL15_5ViewController.h"
 
+#import "HQL16_1ViewController.h"
+#import "HQL16_2TableViewController.h"
+#import "HQL16_3ViewController.h"
+
 // View
 #import "UITableViewCell+ConfigureModel.h"
 
@@ -135,6 +139,13 @@ static NSString * const cellReusreIdentifier = @"UITableViewCellStyleDefault";
     
     self.navigationItem.title = @"Core Animation 示例";
     [self setupTableView];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    // 让页面自动滑动到本次要测试的 cell 分类上
+    [self.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:1 inSection:15] atScrollPosition:UITableViewScrollPositionBottom animated:YES];
 }
 
 #pragma mark - Custom Accessors
@@ -290,6 +301,7 @@ static NSString * const cellReusreIdentifier = @"UITableViewCellStyleDefault";
         HQL5_7ViewController *controller = [[HQL5_7ViewController alloc] init];
         [self.navigationController pushViewController:controller animated:YES];
     }
+
     
     // 6.专用图层
     if (indexPath.section == 5 && indexPath.row == 0) {
@@ -524,6 +536,20 @@ static NSString * const cellReusreIdentifier = @"UITableViewCellStyleDefault";
     }
     if (indexPath.section == 14 && indexPath.row == 4) {
         HQL15_5ViewController *controller = [[HQL15_5ViewController alloc] init];
+        [self.navigationController pushViewController:controller animated:YES];
+    }
+    
+    // 16.折叠动画
+    if (indexPath.section == 15 && indexPath.row == 0) {
+        HQL16_1ViewController *controller = [[HQL16_1ViewController alloc] init];
+        [self.navigationController pushViewController:controller animated:YES];
+    }
+    if (indexPath.section == 15 && indexPath.row == 1) {
+        HQL16_2TableViewController *controller = [[HQL16_2TableViewController alloc] initWithStyle:UITableViewStylePlain];
+        [self.navigationController pushViewController:controller animated:YES];
+    }
+    if (indexPath.section == 15 && indexPath.row == 2) {
+        HQL16_3ViewController *controller = [[HQL16_3ViewController alloc] init];
         [self.navigationController pushViewController:controller animated:YES];
     }
 }
