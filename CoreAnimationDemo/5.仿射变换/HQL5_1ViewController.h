@@ -28,9 +28,9 @@ NS_ASSUME_NONNULL_END
  
  CGAffineTransform 中的 “仿射” 的意思是无论变换矩阵用什么值，图层中平行的两条线在变换之后任然保持平行。
  
- 旋转：CGAffineTransformMakeRotation(CGFloat angle)
- 缩放：CGAffineTransformMakeScale(CGFloat sx, CGFloat sy)
- 平移：CGAffineTransformMakeTranslation(CGFloat tx, CGFloat ty)
+ MARK: 旋转：CGAffineTransformMakeRotation(CGFloat angle)
+ MARK: 缩放：CGAffineTransformMakeScale(CGFloat sx, CGFloat sy)
+ MARK: 平移：CGAffineTransformMakeTranslation(CGFloat tx, CGFloat ty)
  
  UIView 可以通过设置 transform 属性做变换，但实际上它只是封装了内部图层的变换。
  

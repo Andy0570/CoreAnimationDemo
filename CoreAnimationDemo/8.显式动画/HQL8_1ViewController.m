@@ -70,7 +70,6 @@
      */
     basicAnimation.removedOnCompletion = NO;
     [self.view1.layer addAnimation:basicAnimation forKey:nil];
-    
 }
 
 

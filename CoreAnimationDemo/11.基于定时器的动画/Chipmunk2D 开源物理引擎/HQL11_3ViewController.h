@@ -20,7 +20,7 @@ NS_ASSUME_NONNULL_END
 /*
  # 物理模拟
  
- 注：在 iOS 7 中引入了 UIKit Dyanmics ，它是 UIKit 下的一个二维的物理引擎。
+ !!!: 注:在 iOS 7 中引入了 UIKit Dyanmics ，它是 UIKit 下的一个二维的物理引擎。
  
  # 开源物理引擎 Chipmunk
  
@@ -28,7 +28,7 @@ NS_ASSUME_NONNULL_END
  
  我们将要使用的物理引擎叫做 Chipmunk。另外的 2D 物理引擎也同样可以（例如 Box2D），但是 Chipmunk 使用纯 C 写的，而不是 C++，好处在于更容易和 Objective-C 项目整合。Chipmunk 有很多版本，包括一个和 Objective-C 绑定的 “indie” 版本。C 语言的版本是免费的，所以我们就用它好了。在本书写作的时候 7.0.3 是最新的版本；你可以从 http://chipmunk-physics.net 下载它。
  
- Star：1300+
+ Star：1.5k
  源码：https://github.com/slembcke/Chipmunk2D
  参考：http://chipmunk-physics.net/documentation.php
  Chipmunk2D 中文手册：https://github.com/iTyran/ChipmunkDocsCN/blob/master/Chipmunk2D.md

@@ -11,4 +11,6 @@ target 'CoreAnimationDemo' do
   pod 'ChameleonFramework'
   # pod 'chipmunk-physics', '~> 6.1.3'
 
+  pod 'pop', '~> 1.0.12'
+
 end

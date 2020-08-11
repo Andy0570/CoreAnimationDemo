@@ -22,7 +22,7 @@
     // 创建一个不透明按钮
     UIButton *button1 = [self customButton];
     button1.center = CGPointMake(80, 150);
-    // button1.alpha = 0.5;
+    button1.alpha = 0.5;
     [self.containerView addSubview:button1];
     
     // 创建一个半透明按钮

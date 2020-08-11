@@ -39,10 +39,10 @@
     // 设置 CAAnimation 的 timingFunction 属性
     [CATransaction setAnimationTimingFunction:function];
     
-    //set the position
+    // 设置位置
     self.colorLayer.position = [[touches anyObject] locationInView:self.view];
     
-    //commit transaction
+    // 执行事务
     [CATransaction commit];
 }
 

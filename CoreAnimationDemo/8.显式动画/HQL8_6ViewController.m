@@ -37,10 +37,7 @@
     CGFloat blue = arc4random() / (CGFloat)INT_MAX;
     
     // 更新视图的背景颜色
-    self.view.backgroundColor = [UIColor colorWithRed:red
-                                                green:green
-                                                 blue:blue
-                                                alpha:1.0];
+    self.view.backgroundColor = [UIColor colorWithRed:red green:green blue:blue alpha:1.0];
 
     // 执行动画 (anything you like)
     [UIView animateWithDuration:1 animations:^{

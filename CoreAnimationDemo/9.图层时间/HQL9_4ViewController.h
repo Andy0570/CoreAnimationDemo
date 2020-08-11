@@ -26,11 +26,14 @@ NS_ASSUME_NONNULL_END
  * kCAFillModeBoth
  * kCAFillModeRemoved，当动画不再播放的时候就显示图层模型指定的值剩下的三种类型向前，向后或者即向前又向后去填充动画状态，使得动画在开始前或者结束后仍然保持开始和结束那一刻的值
  
- 当用它来解决这个问题的时候，需要把 removeOnCompletion 设置为 NO，另外需要给动画添加一个非空的键，以便可以在不需要动画的时候把它从图层上移除。
+ 当用它来解决这个问题的时候，需要把 removeOnCompletion 设置为 NO，
+ 另外需要给动画添加一个非空的键，以便可以在不需要动画的时候把它从图层上移除。
  
  # 层级关系时间
  
- 每个动画和图层在时间上都有它自己的层级概念，相对于它的父亲来测量。对图层调整时间将会影响到它本身和子图层的动画，但不会影响到父图层。另一个相似点是所有的动画都被按照层级组合（使用 CAAnimationGroup 实例）。
+ 每个动画和图层在时间上都有它自己的层级概念，相对于它的父亲来测量。
+ 对图层调整时间将会影响到它本身和子图层的动画，但不会影响到父图层。
+ 另一个相似点是所有的动画都被按照层级组合（使用 CAAnimationGroup 实例）。
  
  对 CALayer 或者 CAGroupAnimation 调整 duration 和 repeatCount/repeatDuration 属性并不会影响到子动画。
  但是 beginTime，timeOffset 和 speed 属性将会影响到子动画。
@@ -42,8 +45,9 @@ NS_ASSUME_NONNULL_END
  # 全局时间和本地时间
  
  CoreAnimation 有一个全局时间的概念，也就是所谓的马赫时间（“马赫” 实际上是 iOS 和 Mac OS 系统内核的命名）。
- 马赫时间在设备上所有进程都是全局的 -- 但是在不同设备上并不是全局的 -- 不过这已经足够对动画的参考点提供便利了，你可以使用 CACurrentMediaTime 函数来访问马赫时间：
+ 马赫时间在设备上所有进程都是全局的 -- 但是在不同设备上并不是全局的 -- 不过这已经足够对动画的参考点提供便利了。
  
+ MARK: 你可以使用 CACurrentMediaTime 函数来访问马赫时间：
  CFTimeInterval time = CACurrentMediaTime();
  
  这个函数返回的值其实无关紧要（它返回了设备自从上次启动后的秒数，并不是你所关心的），它真实的作用在于对动画的时间测量提供了一个相对值。

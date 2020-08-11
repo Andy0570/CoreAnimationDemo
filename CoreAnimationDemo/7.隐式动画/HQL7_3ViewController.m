@@ -27,10 +27,11 @@
     self.colorLayer.frame = CGRectMake(50.0f, 50.0f, 100.0f, 100.0f);
     self.colorLayer.backgroundColor = [UIColor blueColor].CGColor;
     
-    // 添加自定义行为：推进过渡
+    // !!!: 添加自定义行为：推进过渡
     CATransition *transition = [CATransition animation];
     transition.type = kCATransitionPush;
     transition.subtype = kCATransitionFromLeft;
+    // MARK: 提供一个 actions 字典来控制隐式动画。
     self.colorLayer.actions = @{@"backgroundColor": transition};
     
     // 添加子图层
@@ -44,10 +45,7 @@
     CGFloat red = arc4random() / (CGFloat)INT_MAX;
     CGFloat green = arc4random() / (CGFloat)INT_MAX;
     CGFloat blue = arc4random() / (CGFloat)INT_MAX;
-    self.colorLayer.backgroundColor = [UIColor colorWithRed:red
-                                                      green:green
-                                                       blue:blue
-                                                      alpha:1.0].CGColor;
+    self.colorLayer.backgroundColor = [UIColor colorWithRed:red green:green blue:blue alpha:1.0].CGColor;
 }
 
 

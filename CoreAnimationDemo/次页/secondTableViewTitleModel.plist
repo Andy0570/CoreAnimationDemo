@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>headerTitle</key>
+		<string>弹簧动画</string>
+		<key>cells</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>示例一</string>
+				<key>detail</key>
+				<string>POPSpringAnimation</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>文本框移动</string>
+				<key>detail</key>
+				<string>-</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>动态按钮</string>
+				<key>detail</key>
+				<string>-</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>图片放大效果1</string>
+				<key>detail</key>
+				<string>kPOPViewFrame</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>图片放大效果2</string>
+				<key>detail</key>
+				<string>kPOPLayoutConstraintConstant</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>自定义Segue</string>
+				<key>detail</key>
+				<string>-</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>headerTitle</key>
+		<string>衰减动画</string>
+		<key>cells</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>示例一</string>
+				<key>detail</key>
+				<string>POPDecayAnimation</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

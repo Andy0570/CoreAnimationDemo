@@ -29,13 +29,11 @@
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     // 执行动画
-    [UIView animateWithDuration:1.0
-                          delay:0.0
+    [UIView animateWithDuration:1.0 delay:0.0
                         options:UIViewAnimationOptionCurveEaseOut
-                     animations:^{      
+                     animations:^{
         // 设置位置
         self.colorView.center = [[touches anyObject] locationInView:self.view];
-                         
     } completion:NULL];
 }
 

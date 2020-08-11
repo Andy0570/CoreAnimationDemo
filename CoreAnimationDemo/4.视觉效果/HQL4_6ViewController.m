@@ -33,7 +33,7 @@
         view.layer.contentsRect = CGRectMake(0, 0, 0.1, 1.0);
         view.layer.contentsGravity = kCAGravityResizeAspect;
         
-        // use nearest-neighbor scaling 三线性滤波算法
+        // !!!: use nearest-neighbor scaling 使用最近过滤算法
         view.layer.magnificationFilter = kCAFilterNearest;
     }
     

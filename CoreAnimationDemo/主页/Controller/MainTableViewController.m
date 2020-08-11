@@ -122,7 +122,6 @@
 // cell 重用标识符
 static NSString * const cellReusreIdentifier = @"UITableViewCellStyleDefault";
 
-
 @interface MainTableViewController ()
 
 @property (nonatomic, strong) NSArray *groupedModelsArray;
@@ -145,7 +144,7 @@ static NSString * const cellReusreIdentifier = @"UITableViewCellStyleDefault";
     [super viewDidAppear:animated];
     
     // 让页面自动滑动到本次要测试的 cell 分类上
-    [self.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:1 inSection:15] atScrollPosition:UITableViewScrollPositionBottom animated:YES];
+//    [self.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:9] atScrollPosition:UITableViewScrollPositionTop animated:YES];
 }
 
 #pragma mark - Custom Accessors

@@ -30,8 +30,5 @@ NS_ASSUME_NONNULL_END
  
  如果是一个矩形或者是圆，用 CGPath 会相当简单明了。
  但是如果是更加复杂一点的图形，UIBezierPath 类会更合适，它是一个由 UIKit 提供的在 CGPath 基础上的 Objective-C 包装类。
- 
- 
- 
- 
+
  */

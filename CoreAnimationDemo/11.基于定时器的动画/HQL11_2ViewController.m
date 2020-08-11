@@ -102,8 +102,7 @@ float bounceEaseOut112(float t)
     // 在每帧开始刷新的时候用 CACurrentMediaTime() 记录当前时间
     self.lastStep = CACurrentMediaTime();
     // 开启定时器，使用 CADisplayLink
-    self.timer = [CADisplayLink displayLinkWithTarget:self
-                                             selector:@selector(step:)];
+    self.timer = [CADisplayLink displayLinkWithTarget:self selector:@selector(step:)];
     // 将 CADisplayLink 添加到 Run Loop
     [self.timer addToRunLoop:[NSRunLoop mainRunLoop]
                      forMode:NSDefaultRunLoopMode];

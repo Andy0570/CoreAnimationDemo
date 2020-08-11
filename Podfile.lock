@@ -2,23 +2,28 @@ PODS:
   - ChameleonFramework (2.1.0):
     - ChameleonFramework/Default (= 2.1.0)
   - ChameleonFramework/Default (2.1.0)
+  - pop (1.0.12)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
   - ChameleonFramework
+  - pop (~> 1.0.12)
   - YYKit
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - ChameleonFramework
     - YYKit
+  trunk:
+    - pop
 
 SPEC CHECKSUMS:
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 1cbdf30b00a95a6bbdd708c096011e4e853b1c5c
+PODFILE CHECKSUM: d7bff13c1d5766684ca66207eb437ea6de717fee
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.9.3

@@ -58,7 +58,7 @@
     imageView.tag = indexPath.row;
     imageView.image = nil;
     
-    // 通过 GCD 切换到后台线程执行「加载图片步骤」，然后切换回主线程执行「显示图片步骤」
+    // !!!: 通过 GCD 切换到后台线程执行「加载图片步骤」，然后切换回主线程执行「显示图片步骤」
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_LOW, 0), ^{
         
         //load image

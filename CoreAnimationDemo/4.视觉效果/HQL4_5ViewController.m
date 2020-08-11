@@ -27,7 +27,6 @@
     
     // 将蒙板添加到图像图层
     self.imageView.layer.mask = maskLayer;
-    
 }
 
 @end

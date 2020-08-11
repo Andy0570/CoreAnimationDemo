@@ -21,10 +21,8 @@ NS_ASSUME_NONNULL_END
  # 自定义缓冲函数
  
  CAMediaTimingFunction 函数的主要原则在于它把输入的时间转换成起点和终点之间成比例的改变。
- CAMediaTimingFunction 使用了一个叫做三次贝塞尔曲线的函数，它只可以产出指定缓冲函数的子集
+ CAMediaTimingFunction 使用了一个叫做三次贝塞尔曲线的函数，它只可以产出指定缓冲函数的子集。
  
- CAMediaTimingFunction 有一个叫做 -getControlPointAtIndex:values: 的方法，可以用来检索曲线的点
- 
- 
- 
+ CAMediaTimingFunction 有一个叫做 -getControlPointAtIndex:values: 的方法，可以用来检索曲线的点。
+ 使用它我们可以找到标准缓冲函数的点，然后使用 UIBezierPath 和 CAShapeLayer 来把它画出来。
  */

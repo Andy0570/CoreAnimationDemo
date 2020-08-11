@@ -53,7 +53,7 @@
 // 这是因为当你使用 CALayerDelegate 绘制寄宿图的时候，并没有对超出边界外的内容提供绘制支持。
 - (void)drawLayer:(CALayer *)layer inContext:(CGContextRef)ctx
 {
-    //draw a thick red circle
+    // 画一个粗线条的红色圆圈
     CGContextSetLineWidth(ctx, 10.0f);
     CGContextSetStrokeColorWithColor(ctx, [UIColor redColor].CGColor);
     CGContextStrokeEllipseInRect(ctx, layer.bounds);

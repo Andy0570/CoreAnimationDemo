@@ -26,6 +26,4 @@
     self.layerView.layer.affineTransform = transform;
 }
 
-
-
 @end

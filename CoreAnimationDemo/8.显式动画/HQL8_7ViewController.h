@@ -23,10 +23,10 @@ NS_ASSUME_NONNULL_END
  - (CAAnimation *)animationForKey:(NSString *)key;
  但并不支持在动画运行过程中修改动画，所以这个方法主要用来检测动画的属性，或者判断它是否被添加到当前图层中。
  
- 为了终止一个指定的动画，你可以用如下方法把它从图层移除掉：
+ MARK: 为了终止一个指定的动画，你可以用如下方法把它从图层移除掉：
  - (void)removeAnimationForKey:(NSString *)key;
  
- 或者移除所有动画：
+ MARK: 或者移除所有动画：
  - (void)removeAllAnimations;
  
  动画一旦被移除，图层的外观就立刻更新到当前的模型图层的值。

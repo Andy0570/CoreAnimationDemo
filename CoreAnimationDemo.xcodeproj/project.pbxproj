@@ -152,6 +152,12 @@
 		22290DBC234090E0008D0A1B /* FoldingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22290DBA234090E0008D0A1B /* FoldingCell.xib */; };
 		22290DC0234121D5008D0A1B /* HQL16_3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22290DBE234121D5008D0A1B /* HQL16_3ViewController.m */; };
 		22290DC1234121D5008D0A1B /* HQL16_3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22290DBF234121D5008D0A1B /* HQL16_3ViewController.xib */; };
+		224AE25424E2940E0026BCEB /* PPPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224AE25224E2940E0026BCEB /* PPPictureViewController.m */; };
+		224AE25524E2940E0026BCEB /* PPPictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224AE25324E2940E0026BCEB /* PPPictureViewController.xib */; };
+		224AE25924E294250026BCEB /* PPPictureConstraintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224AE25724E294250026BCEB /* PPPictureConstraintViewController.m */; };
+		224AE25A24E294250026BCEB /* PPPictureConstraintViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224AE25824E294250026BCEB /* PPPictureConstraintViewController.xib */; };
+		224AE25F24E29C810026BCEB /* PPDecayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224AE25D24E29C810026BCEB /* PPDecayViewController.m */; };
+		224AE26024E29C810026BCEB /* PPDecayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224AE25E24E29C810026BCEB /* PPDecayViewController.xib */; };
 		2251138E2338B87500596DCA /* HQL8_1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2251138C2338B87500596DCA /* HQL8_1ViewController.m */; };
 		2251138F2338B87500596DCA /* HQL8_1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2251138D2338B87500596DCA /* HQL8_1ViewController.xib */; };
 		225113932338BCA400596DCA /* HQL8_2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 225113912338BCA400596DCA /* HQL8_2ViewController.m */; };
@@ -164,6 +170,15 @@
 		225113A32338BCCE00596DCA /* HQL8_5ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 225113A12338BCCE00596DCA /* HQL8_5ViewController.xib */; };
 		225113A72338BCDA00596DCA /* HQL8_6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 225113A52338BCDA00596DCA /* HQL8_6ViewController.m */; };
 		225113A82338BCDA00596DCA /* HQL8_6ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 225113A62338BCDA00596DCA /* HQL8_6ViewController.xib */; };
+		2274734F24E26051002B039A /* SecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2274734E24E26051002B039A /* SecondTableViewController.m */; };
+		2274735124E26082002B039A /* secondTableViewTitleModel.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2274735024E26082002B039A /* secondTableViewTitleModel.plist */; };
+		2274735624E26334002B039A /* HQLPopSpringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2274735424E26334002B039A /* HQLPopSpringViewController.m */; };
+		2274735724E26334002B039A /* HQLPopSpringViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2274735524E26334002B039A /* HQLPopSpringViewController.xib */; };
+		2274735B24E27D1A002B039A /* PPSpringSizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2274735924E27D1A002B039A /* PPSpringSizeViewController.m */; };
+		2274735C24E27D1A002B039A /* PPSpringSizeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2274735A24E27D1A002B039A /* PPSpringSizeViewController.xib */; };
+		2274736024E2835A002B039A /* PPSpringButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2274735E24E2835A002B039A /* PPSpringButtonViewController.m */; };
+		2274736124E2835A002B039A /* PPSpringButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2274735F24E2835A002B039A /* PPSpringButtonViewController.xib */; };
+		2274736A24E28CDD002B039A /* PPCustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2274736924E28CDD002B039A /* PPCustomSegue.m */; };
 		228050D42331CD0D00EE93FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 228050D32331CD0D00EE93FD /* AppDelegate.m */; };
 		228050DA2331CD0D00EE93FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228050D82331CD0D00EE93FD /* Main.storyboard */; };
 		228050DC2331CD0E00EE93FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 228050DB2331CD0E00EE93FD /* Assets.xcassets */; };
@@ -451,6 +466,15 @@
 		22290DBD234121D5008D0A1B /* HQL16_3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQL16_3ViewController.h; sourceTree = "<group>"; };
 		22290DBE234121D5008D0A1B /* HQL16_3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQL16_3ViewController.m; sourceTree = "<group>"; };
 		22290DBF234121D5008D0A1B /* HQL16_3ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HQL16_3ViewController.xib; sourceTree = "<group>"; };
+		224AE25124E2940E0026BCEB /* PPPictureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPPictureViewController.h; sourceTree = "<group>"; };
+		224AE25224E2940E0026BCEB /* PPPictureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPPictureViewController.m; sourceTree = "<group>"; };
+		224AE25324E2940E0026BCEB /* PPPictureViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PPPictureViewController.xib; sourceTree = "<group>"; };
+		224AE25624E294250026BCEB /* PPPictureConstraintViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPPictureConstraintViewController.h; sourceTree = "<group>"; };
+		224AE25724E294250026BCEB /* PPPictureConstraintViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPPictureConstraintViewController.m; sourceTree = "<group>"; };
+		224AE25824E294250026BCEB /* PPPictureConstraintViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PPPictureConstraintViewController.xib; sourceTree = "<group>"; };
+		224AE25C24E29C810026BCEB /* PPDecayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPDecayViewController.h; sourceTree = "<group>"; };
+		224AE25D24E29C810026BCEB /* PPDecayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPDecayViewController.m; sourceTree = "<group>"; };
+		224AE25E24E29C810026BCEB /* PPDecayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PPDecayViewController.xib; sourceTree = "<group>"; };
 		2251138B2338B87500596DCA /* HQL8_1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQL8_1ViewController.h; sourceTree = "<group>"; };
 		2251138C2338B87500596DCA /* HQL8_1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQL8_1ViewController.m; sourceTree = "<group>"; };
 		2251138D2338B87500596DCA /* HQL8_1ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HQL8_1ViewController.xib; sourceTree = "<group>"; };
@@ -469,6 +493,20 @@
 		225113A42338BCDA00596DCA /* HQL8_6ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQL8_6ViewController.h; sourceTree = "<group>"; };
 		225113A52338BCDA00596DCA /* HQL8_6ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQL8_6ViewController.m; sourceTree = "<group>"; };
 		225113A62338BCDA00596DCA /* HQL8_6ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HQL8_6ViewController.xib; sourceTree = "<group>"; };
+		2274734D24E26051002B039A /* SecondTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondTableViewController.h; sourceTree = "<group>"; };
+		2274734E24E26051002B039A /* SecondTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondTableViewController.m; sourceTree = "<group>"; };
+		2274735024E26082002B039A /* secondTableViewTitleModel.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = secondTableViewTitleModel.plist; sourceTree = "<group>"; };
+		2274735324E26334002B039A /* HQLPopSpringViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQLPopSpringViewController.h; sourceTree = "<group>"; };
+		2274735424E26334002B039A /* HQLPopSpringViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQLPopSpringViewController.m; sourceTree = "<group>"; };
+		2274735524E26334002B039A /* HQLPopSpringViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HQLPopSpringViewController.xib; sourceTree = "<group>"; };
+		2274735824E27D1A002B039A /* PPSpringSizeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPSpringSizeViewController.h; sourceTree = "<group>"; };
+		2274735924E27D1A002B039A /* PPSpringSizeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPSpringSizeViewController.m; sourceTree = "<group>"; };
+		2274735A24E27D1A002B039A /* PPSpringSizeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PPSpringSizeViewController.xib; sourceTree = "<group>"; };
+		2274735D24E2835A002B039A /* PPSpringButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPSpringButtonViewController.h; sourceTree = "<group>"; };
+		2274735E24E2835A002B039A /* PPSpringButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPSpringButtonViewController.m; sourceTree = "<group>"; };
+		2274735F24E2835A002B039A /* PPSpringButtonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PPSpringButtonViewController.xib; sourceTree = "<group>"; };
+		2274736824E28CDD002B039A /* PPCustomSegue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPCustomSegue.h; sourceTree = "<group>"; };
+		2274736924E28CDD002B039A /* PPCustomSegue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPCustomSegue.m; sourceTree = "<group>"; };
 		228050CF2331CD0D00EE93FD /* CoreAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		228050D22331CD0D00EE93FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		228050D32331CD0D00EE93FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -910,6 +948,29 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		224AE25024E293CF0026BCEB /* EnlargeImageViews */ = {
+			isa = PBXGroup;
+			children = (
+				224AE25124E2940E0026BCEB /* PPPictureViewController.h */,
+				224AE25224E2940E0026BCEB /* PPPictureViewController.m */,
+				224AE25324E2940E0026BCEB /* PPPictureViewController.xib */,
+				224AE25624E294250026BCEB /* PPPictureConstraintViewController.h */,
+				224AE25724E294250026BCEB /* PPPictureConstraintViewController.m */,
+				224AE25824E294250026BCEB /* PPPictureConstraintViewController.xib */,
+			);
+			path = EnlargeImageViews;
+			sourceTree = "<group>";
+		};
+		224AE25B24E29C5C0026BCEB /* 衰减动画 */ = {
+			isa = PBXGroup;
+			children = (
+				224AE25C24E29C810026BCEB /* PPDecayViewController.h */,
+				224AE25D24E29C810026BCEB /* PPDecayViewController.m */,
+				224AE25E24E29C810026BCEB /* PPDecayViewController.xib */,
+			);
+			path = "衰减动画";
+			sourceTree = "<group>";
+		};
 		2251138A2338B81300596DCA /* 8.显式动画 */ = {
 			isa = PBXGroup;
 			children = (
@@ -936,6 +997,45 @@
 				22BF1945233A183F008B502D /* HQL8_7ViewController.xib */,
 			);
 			path = "8.显式动画";
+			sourceTree = "<group>";
+		};
+		2274734C24E26041002B039A /* 次页 */ = {
+			isa = PBXGroup;
+			children = (
+				2274734D24E26051002B039A /* SecondTableViewController.h */,
+				2274734E24E26051002B039A /* SecondTableViewController.m */,
+				2274735024E26082002B039A /* secondTableViewTitleModel.plist */,
+				2274735224E2631B002B039A /* 弹簧动画 */,
+				224AE25B24E29C5C0026BCEB /* 衰减动画 */,
+			);
+			path = "次页";
+			sourceTree = "<group>";
+		};
+		2274735224E2631B002B039A /* 弹簧动画 */ = {
+			isa = PBXGroup;
+			children = (
+				2274735324E26334002B039A /* HQLPopSpringViewController.h */,
+				2274735424E26334002B039A /* HQLPopSpringViewController.m */,
+				2274735524E26334002B039A /* HQLPopSpringViewController.xib */,
+				2274735824E27D1A002B039A /* PPSpringSizeViewController.h */,
+				2274735924E27D1A002B039A /* PPSpringSizeViewController.m */,
+				2274735A24E27D1A002B039A /* PPSpringSizeViewController.xib */,
+				2274735D24E2835A002B039A /* PPSpringButtonViewController.h */,
+				2274735E24E2835A002B039A /* PPSpringButtonViewController.m */,
+				2274735F24E2835A002B039A /* PPSpringButtonViewController.xib */,
+				224AE25024E293CF0026BCEB /* EnlargeImageViews */,
+				2274736724E28A84002B039A /* 自定义Segue */,
+			);
+			path = "弹簧动画";
+			sourceTree = "<group>";
+		};
+		2274736724E28A84002B039A /* 自定义Segue */ = {
+			isa = PBXGroup;
+			children = (
+				2274736824E28CDD002B039A /* PPCustomSegue.h */,
+				2274736924E28CDD002B039A /* PPCustomSegue.m */,
+			);
+			path = "自定义Segue";
 			sourceTree = "<group>";
 		};
 		228050C62331CD0D00EE93FD = {
@@ -981,7 +1081,7 @@
 				22BF193F2339FE7B008B502D /* NavigationViewController */,
 				22BF193A2339F01A008B502D /* TabBarController */,
 				228050EB2331CE2100EE93FD /* 主页 */,
-				22BF193E2339F058008B502D /* 次页 */,
+				2274734C24E26041002B039A /* 次页 */,
 				228050D22331CD0D00EE93FD /* AppDelegate.h */,
 				228050D32331CD0D00EE93FD /* AppDelegate.m */,
 				228050D82331CD0D00EE93FD /* Main.storyboard */,
@@ -1234,13 +1334,6 @@
 			path = TabBarController;
 			sourceTree = "<group>";
 		};
-		22BF193E2339F058008B502D /* 次页 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "次页";
-			sourceTree = "<group>";
-		};
 		22BF193F2339FE7B008B502D /* NavigationViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -1399,6 +1492,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22290D8D233DEC91008D0A1B /* HQL15_3ViewController.xib in Resources */,
+				224AE26024E29C810026BCEB /* PPDecayViewController.xib in Resources */,
 				2226650B233405EF00693A93 /* Snowman_04_03.jpg in Resources */,
 				22266508233405EF00693A93 /* Snowman_07_01.jpg in Resources */,
 				222665462334AF1F00693A93 /* HQL7_3ViewController.xib in Resources */,
@@ -1425,6 +1519,7 @@
 				22BF1957233A1E21008B502D /* HQL9_3ViewController.xib in Resources */,
 				22191A792333327C00BA68B6 /* HQL5_1ViewController.xib in Resources */,
 				2283AB16233CBDAF009A9291 /* HQL13_2ViewController.xib in Resources */,
+				224AE25A24E294250026BCEB /* PPPictureConstraintViewController.xib in Resources */,
 				22266525233405EF00693A93 /* Snowman_01_03.jpg in Resources */,
 				222664902333877600693A93 /* HQL6_6ViewController.xib in Resources */,
 				22BF1952233A1E17008B502D /* HQL9_2ViewController.xib in Resources */,
@@ -1464,12 +1559,14 @@
 				22B93B20233D2B440053B987 /* HQL14_1ViewController.xib in Resources */,
 				22805227233235D100EE93FD /* HQL4_4ViewController.xib in Resources */,
 				22266510233405EF00693A93 /* Snowman_02_04.jpg in Resources */,
+				2274736124E2835A002B039A /* PPSpringButtonViewController.xib in Resources */,
 				222664E9233405EF00693A93 /* Snowman_01_05.jpg in Resources */,
 				2251138F2338B87500596DCA /* HQL8_1ViewController.xib in Resources */,
 				22BF1982233B66AC008B502D /* HQL10_7ViewController.xib in Resources */,
 				222664F9233405EF00693A93 /* Snowman_06_07.jpg in Resources */,
 				22266514233405EF00693A93 /* Snowman_05_07.jpg in Resources */,
 				22266506233405EF00693A93 /* Snowman_02_06.jpg in Resources */,
+				2274735724E26334002B039A /* HQLPopSpringViewController.xib in Resources */,
 				22B93B2A233D2B5A0053B987 /* HQL14_3ViewController.xib in Resources */,
 				22266507233405EF00693A93 /* Snowman_06_01.jpg in Resources */,
 				22BF194D233A1E0D008B502D /* HQL9_1ViewController.xib in Resources */,
@@ -1497,7 +1594,9 @@
 				2226651D233405EF00693A93 /* Snowman_00_06.jpg in Resources */,
 				22805208233224D900EE93FD /* HQL3_2ViewController.xib in Resources */,
 				2226648B2333876200693A93 /* HQL6_5ViewController.xib in Resources */,
+				2274735124E26082002B039A /* secondTableViewTitleModel.plist in Resources */,
 				222665322334A33B00693A93 /* HQL6_11ViewController.xib in Resources */,
+				224AE25524E2940E0026BCEB /* PPPictureViewController.xib in Resources */,
 				222664F7233405EF00693A93 /* Snowman_05_02.jpg in Resources */,
 				225113942338BCA400596DCA /* HQL8_2ViewController.xib in Resources */,
 				228052182332323D00EE93FD /* HQL4_1ViewController.xib in Resources */,
@@ -1508,6 +1607,7 @@
 				228051EE2331FF3100EE93FD /* HQL2_2ViewController.xib in Resources */,
 				22266526233405EF00693A93 /* Snowman_06_06.jpg in Resources */,
 				22B93B0D233CC46C0053B987 /* HQL13_3ViewController.xib in Resources */,
+				2274735C24E27D1A002B039A /* PPSpringSizeViewController.xib in Resources */,
 				22266513233405EF00693A93 /* Snowman_00_02.jpg in Resources */,
 				22BF195C233A1E2E008B502D /* HQL9_4ViewController.xib in Resources */,
 				2226649F233387A400693A93 /* HQL6_9ViewController.xib in Resources */,
@@ -1594,6 +1694,7 @@
 				22290D8C233DEC91008D0A1B /* HQL15_3ViewController.m in Sources */,
 				22191A682332A65000BA68B6 /* HQL4_5ViewController.m in Sources */,
 				2283AB15233CBDAF009A9291 /* HQL13_2ViewController.m in Sources */,
+				2274735624E26334002B039A /* HQLPopSpringViewController.m in Sources */,
 				222665312334A33B00693A93 /* HQL6_11ViewController.m in Sources */,
 				2226653B2334AEF500693A93 /* HQL7_1ViewController.m in Sources */,
 				2226648123336C4400693A93 /* HQL6_4ViewController.m in Sources */,
@@ -1607,6 +1708,7 @@
 				22290D87233DEC85008D0A1B /* HQL15_2ViewController.m in Sources */,
 				22290D82233DEC55008D0A1B /* HQL15_1ViewController.m in Sources */,
 				22290DB423409039008D0A1B /* HQL16_2TableViewController.m in Sources */,
+				2274735B24E27D1A002B039A /* PPSpringSizeViewController.m in Sources */,
 				22191A722332B07D00BA68B6 /* HQL4_7ViewController.m in Sources */,
 				228051DA2331CEA200EE93FD /* HQLArrayDataSource.m in Sources */,
 				22B93B04233CC1BB0053B987 /* DrawingView1.m in Sources */,
@@ -1660,11 +1762,14 @@
 				2251139D2338BCC100596DCA /* HQL8_4ViewController.m in Sources */,
 				228051ED2331FF3100EE93FD /* HQL2_2ViewController.m in Sources */,
 				222665402334AF1500693A93 /* HQL7_2ViewController.m in Sources */,
+				224AE25F24E29C810026BCEB /* PPDecayViewController.m in Sources */,
 				2226648623337B3600693A93 /* LayerLabel.m in Sources */,
 				228051E02331D2BF00EE93FD /* HQL1ViewController.m in Sources */,
 				2226647723336C2C00693A93 /* HQL6_2ViewController.m in Sources */,
+				2274736024E2835A002B039A /* PPSpringButtonViewController.m in Sources */,
 				22290D74233DE3DC008D0A1B /* HQL14_8ViewController.m in Sources */,
 				22BF19422339FE99008B502D /* HQLNavigationController.m in Sources */,
+				224AE25424E2940E0026BCEB /* PPPictureViewController.m in Sources */,
 				222664992333879400693A93 /* HQL6_8ViewController.m in Sources */,
 				22191A6D2332AB0800BA68B6 /* HQL4_6ViewController.m in Sources */,
 				22290D6F233DE3D1008D0A1B /* HQL14_7ViewController.m in Sources */,
@@ -1676,7 +1781,9 @@
 				2280521123322F0100EE93FD /* HQL3_4ViewController.m in Sources */,
 				228051D52331CE9B00EE93FD /* HQLTableViewCellGroupedModel.m in Sources */,
 				2226648F2333877600693A93 /* HQL6_6ViewController.m in Sources */,
+				224AE25924E294250026BCEB /* PPPictureConstraintViewController.m in Sources */,
 				222664942333878600693A93 /* HQL6_7ViewController.m in Sources */,
+				2274734F24E26051002B039A /* SecondTableViewController.m in Sources */,
 				222664A72334009F00693A93 /* ScrollView.m in Sources */,
 				22805202233217D500EE93FD /* HQL3_1ViewController.m in Sources */,
 				228051FC23320FEA00EE93FD /* HQL2_5ViewController.m in Sources */,
@@ -1685,6 +1792,7 @@
 				2226654A2334AF3000693A93 /* HQL7_4ViewController.m in Sources */,
 				22BF193D2339F040008B502D /* HQLTabBarViewController.m in Sources */,
 				228051F7233207D000EE93FD /* HQL2_4ViewController.m in Sources */,
+				2274736A24E28CDD002B039A /* PPCustomSegue.m in Sources */,
 				225113A22338BCCE00596DCA /* HQL8_5ViewController.m in Sources */,
 				2280520C233227A500EE93FD /* HQL3_3ViewController.m in Sources */,
 			);

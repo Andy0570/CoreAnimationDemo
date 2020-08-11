@@ -33,10 +33,11 @@
     // get the touch point
     CGPoint point = [[touches anyObject] locationInView:self.view];
     
-    // check if we've tapped the moving layer
-    // 通过呈现图层的值来获取当前屏幕上真正显示出来的值。
-    // 呈现图层代表了用户当前看到的图层位置，而不是当前动画结束之后的位置。
     /*
+     check if we've tapped the moving layer
+     通过呈现图层的值来获取当前屏幕上真正显示出来的值。
+     呈现图层代表了用户当前看到的图层位置，而不是当前动画结束之后的位置。
+     
      [self.colorLayer.presentationLayer hitTest:point] 表示：
      判断触摸点是不是在 colorLayer 当前呈现的图层上（可能这个图层正在移动中）
      
@@ -50,14 +51,12 @@
         CGFloat red = arc4random() / (CGFloat)INT_MAX;
         CGFloat green = arc4random() / (CGFloat)INT_MAX;
         CGFloat blue = arc4random() / (CGFloat)INT_MAX;
-        self.colorLayer.backgroundColor = [UIColor colorWithRed:red
-                                                          green:green
-                                                           blue:blue
-                                                          alpha:1.0].CGColor;
+        self.colorLayer.backgroundColor = [UIColor colorWithRed:red green:green blue:blue alpha:1.0].CGColor;
     } else {
         // 2.否则缓慢移动图层到触摸点的坐标位置
         [CATransaction begin];
-        [CATransaction setAnimationDuration:4.0]; // 设置新事务的动画时长为 4s，默认为 0.25s
+        // 设置新事务的动画时长为 4s，默认为 0.25s
+        [CATransaction setAnimationDuration:4.0];
         self.colorLayer.position = point;
         [CATransaction commit];
     }

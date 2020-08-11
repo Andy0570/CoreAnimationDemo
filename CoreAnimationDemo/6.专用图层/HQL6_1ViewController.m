@@ -54,7 +54,7 @@
 
 // 用 CAShapeLayer 绘制了一个有三个圆角一个直角的矩形
 - (void)setupContaienrView2 {
-    //define path parameters
+    // 创建路径
     CGRect rect = CGRectMake(50, 50, 100, 100);
     CGSize radii = CGSizeMake(20, 20);
     UIRectCorner corners = UIRectCornerTopRight | UIRectCornerBottomRight | UIRectCornerBottomLeft;

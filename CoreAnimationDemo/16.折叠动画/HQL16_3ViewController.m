@@ -27,10 +27,11 @@
     
 }
 
+// 四周圆角
 - (void)setCornerRadiusWithView1 {
     
     self.view1.layer.cornerRadius = 30;
-    self.view1.layer.masksToBounds = YES;
+    // self.view1.layer.masksToBounds = YES;
 }
 
 - (void)setCornerRadiusWithView2 {
@@ -46,7 +47,6 @@
     
     // 设置图层蒙版
     self.view2.layer.mask = shapeLayer;
-    
 }
 
 - (void)setCornerRadiusWithView3 {

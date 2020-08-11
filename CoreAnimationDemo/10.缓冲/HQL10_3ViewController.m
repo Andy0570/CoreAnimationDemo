@@ -36,15 +36,14 @@
     animation.keyPath = @"backgroundColor";
     animation.duration = 2.0;
     animation.values = @[
-                         (__bridge id)[UIColor blueColor].CGColor,
-                         (__bridge id)[UIColor redColor].CGColor,
-                         (__bridge id)[UIColor greenColor].CGColor,
-                         (__bridge id)[UIColor blueColor].CGColor
-                         ];
+        (__bridge id)[UIColor blueColor].CGColor,
+        (__bridge id)[UIColor redColor].CGColor,
+        (__bridge id)[UIColor greenColor].CGColor,
+        (__bridge id)[UIColor blueColor].CGColor
+    ];
     
     // CAKeyframeAnimation 有一个 NSArray 类型的 timingFunctions 属性，我们用它来对每次动画的步骤指定不同的计时函数。
-    CAMediaTimingFunction *fn = [CAMediaTimingFunction functionWithName:
-                                 kCAMediaTimingFunctionEaseIn];
+    CAMediaTimingFunction *fn = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseIn];
     animation.timingFunctions = @[fn, fn, fn];
     
     //apply animation to layer
